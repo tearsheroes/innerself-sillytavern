@@ -1,0 +1,38 @@
+{
+    "name": "Inner Self",
+    "description": "Gives characters minds of their own - memory, goals, secrets, planning, and self-reflection. Based on Inner Self by LewdLeah",
+    "version": "1.0.0",
+    "author": "LewdLeah (ported by Hoang Anh)",
+    "language": "en",
+    "homepage": "https://github.com/LewdLeah/Inner-Self",
+    "script": "index.js",
+    "tags": ["roleplay", "memory", "characters", "AI"],
+    "allowTemplates": true,
+    "settings": {
+        "type": "object",
+        "properties": {
+            "enabled": {
+                "type": "boolean",
+                "default": true,
+                "description": "Enable Inner Self"
+            },
+            "characters": {
+                "type": "string",
+                "default": "",
+                "description": "Character names (comma-separated)"
+            },
+            "thoughtFormationChance": {
+                "type": "number",
+                "default": 60,
+                "min": 0,
+                "max": 100,
+                "description": "Thought formation chance per turn (%)"
+            },
+            "debugMode": {
+                "type": "boolean",
+                "default": false,
+                "description": "Show debug information"
+            }
+        }
+    }
+}
