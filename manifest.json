@@ -3,7 +3,7 @@
     "loading_order": 100,
     "requires": [],
     "optional": [],
-    "js": "innerself/index.js",
+    "js": "inner-self/index.js",
     "css": "",
     "author": "LewdLeah (ported by Hoang Anh)",
     "version": "1.0.0",
