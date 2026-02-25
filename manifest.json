@@ -1,0 +1,12 @@
+{
+    "name": "Inner Self",
+    "description": "Gives characters minds of their own - memory, goals, secrets, planning, and self-reflection. Based on Inner Self by LewdLeah",
+    "version": "1.0.0",
+    "author": "LewdLeah (ported by Hoang Anh)",
+    "language": "en",
+    "homepage": "https://github.com/tearsheroes/innerself-sillytavern",
+    "script": "innerself/index.js",
+    "tags": ["roleplay", "memory", "characters", "AI"],
+    "allowTemplates": true,
+    "externalUrl": "https://github.com/tearsheroes/innerself-sillytavern"
+}
